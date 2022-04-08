@@ -5,6 +5,9 @@ https://caiorss.github.io/C-Cpp-Notes/compiler-flags-options.html
 
 dun dun dun duuuuuuun
 
+// Libraries needs to be linked statically, so no dependencies are needed when running program later
+g++ -static-libstdc++ -std=c++20 -c ....
+
 // for home, -lncurses seems to work only at the end
 g++ -lncurses -std=c++1z main.cpp -o main -fgnu-tm
 
