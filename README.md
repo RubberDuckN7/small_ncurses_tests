@@ -1,5 +1,10 @@
 # README #
 
+// compiler flags can be looked up here
+https://caiorss.github.io/C-Cpp-Notes/compiler-flags-options.html
+
+dun dun dun duuuuuuun
+
 // for home, -lncurses seems to work only at the end
 g++ -lncurses -std=c++1z main.cpp -o main -fgnu-tm
 
